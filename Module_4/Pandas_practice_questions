@@ -1,2 +1,83 @@
 Create a pandas dataframe from a list of list (2 dimentional list)
+___________________________________________________________________________________________________________________________________________ 
+Create DataFrame from dictionary of lists
+___________________________________________________________________________________________________________________________________________ 
+Create DataFrame from list of dictionaries
+___________________________________________________________________________________________________________________________________________ 
+Create dataframe from list of nested dictionary
+___________________________________________________________________________________________________________________________________________ 
+Create pandas dataframe using list of tuples
+___________________________________________________________________________________________________________________________________________ 
+Given 2 series below - Combine ser1 and ser2 to form a dataframe.
 
+    ser1 = pd.Series(list('abcedfghijklmnopqrstuvwxyz'))
+    ser2 = pd.Series(np.arange(26))
+___________________________________________________________________________________________________________________________________________     
+Write a Pandas program to convert a Panda Series to Python list and it’s type
+    Sample Series: pd.Series([2, 4, 6, 8, 10])
+___________________________________________________________________________________________________________________________________________ 
+Write a Pandas program to add, subtract, multiple and divide two Pandas Series.
+    Sample Series: [2, 4, 6, 8, 10], [1, 3, 5, 7, 9]
+___________________________________________________________________________________________________________________________________________ 
+Write a Pandas program to convert a dictionary to a Pandas series.
+    {'a': 100, 'b': 200, 'c': 300, 'd': 400, 'e': 800}
+___________________________________________________________________________________________________________________________________________ 
+Write a Pandas program to convert the first column of a DataFrame as a Series
+    d = {'col1': [1, 2, 3, 4, 7, 11], 'col2': [4, 5, 6, 9, 5, 0], 'col3': [7, 5, 8, 12, 1,11]}
+___________________________________________________________________________________________________________________________________________     
+Write a Pandas program to display the default index and set a column as an Index in a given dataframe
+Note: use the below dataframe that has already been created. set school_code as the new index of the dataframe
+    df = pd.DataFrame({
+    'school_code': ['s001','s002','s003','s001','s002','s004'],
+    'class': ['V', 'V', 'VI', 'VI', 'V', 'VI'],
+    'name': ['Alberto Franco','Gino Mcneill','Ryan Parkes', 'Eesha Hinton', 'Gino Mcneill', 'David Parkes'],
+    'date_Of_Birth': ['15/05/2002','17/05/2002','16/02/1999','25/09/1998','11/05/2002','15/09/1997'],
+    'weight': [35, 32, 33, 30, 31, 32],
+    'address': ['street1', 'street2', 'street3', 'street1', 'street2', 'street4'],
+    't_id':['t1', 't2', 't3', 't4', 't5', 't6']})
+___________________________________________________________________________________________________________________________________________    
+Using the below dataframe, 
+1. add index to the df 
+2. return the value present in the 'Name' column corresponding to 'Row_2' label
+3. return the 'Weight' and 'Age' columns of the Dataframe
+
+    df = pd.DataFrame({'Weight':[45, 88, 56, 15, 71],
+                'Name':['Sam', 'Andrea', 'Alex', 'Robin', 'Kia'],
+                'Age':[14, 25, 55, 8, 21]})
+    index_ = ['Row_1', 'Row_2', 'Row_3', 'Row_4', 'Row_5']
+    
+___________________________________________________________________________________________________________________________________________ 
+    
+Read the csv 'student.csv' present in the folder and perform the below operations.
+
+1. display all rows from the file
+2. display column 'class' and all rows
+3. display all rows with two columns class, name
+4. display first row with two columns class,name
+5. display 2nd and 3rd row with two columns class,name
+6. display 2nd and 3rd row with all columns
+7. read the csv again and add name column as the index
+8. print row with any 2 names
+9. print records between names 'Ronald' and 'Bigy'
+10. read the csv again and add class column as the index
+11. print all rows with class='Four'
+12. read the csv again and add id column as the index
+13. print all records between id 4:8
+
+___________________________________________________________________________________________________________________________________________ 
+
+Given the below dictionary and index solve below questions.
+
+technologies = { 'Courses':["Spark","PySpark","Hadoop","Python","pandas"], 'Fee' :[20000,25000,26000,22000,24000], 'Duration':['30day','40days','35days','40days','60days'], 'Discount':[1000,2300,1200,2500,2000] }
+
+index_labels=['r1','r2','r3','r4','r5']
+
+1. create a dataframe with the given index
+2. Select single row by index
+3. Select single column by index
+4. Select multiple rows by index
+5. Select multiple columns by index
+6. Print df with index 0 and exclude index 4
+7. Includes Index 1 & Execludes 4
+8. Select Alternate rows By Index
+9. Select Alternate Columns between two Indexes
