@@ -1,0 +1,37 @@
+read the file company_sales_data.csv to a dataframe.
+___________________________________________________________________________________________________________________________________________
+Read total profit of all months and show it using a line plot
+Generated line plot must include the following properties:
+
+    X label name = Month Number
+    Y label name = Total profit
+    title = Company profit per month
+___________________________________________________________________________________________________________________________________________    
+Get total profit of all months and show line plot with the following Style properties
+
+Line Style dotted and Line-color should be red
+Show legend at the lower right location.
+X label name = Month Number
+Y label name = Sold units number
+Add a circle marker.
+Line marker color as red
+Line width should be 3
+___________________________________________________________________________________________________________________________________________
+Read all product sales data and show it using a multiline plot
+Display the number of units sold per month for each product using multiline plots. (i.e., Separate Plotline for each product ).
+___________________________________________________________________________________________________________________________________________
+Read toothpaste sales data of each month and show it using a scatter plot
+Also, add a grid in the plot. gridline style should “--“.
+___________________________________________________________________________________________________________________________________________
+Read face cream and facewash product sales data and show it using the bar chart The bar chart should display the number of units sold per month for each product. Add a separate bar for each product in the same chart.
+___________________________________________________________________________________________________________________________________________
+Read sales data of bathing soap of all months and show it using a bar chart. Save this plot to your hard disk
+___________________________________________________________________________________________________________________________________________
+Read the total profit of each month and show it using the histogram to see the most common profit ranges
+___________________________________________________________________________________________________________________________________________
+Calculate total sale data for last year for each product and show it using a Pie chart
+Note: In Pie chart display Number of units sold per year for each product in percentage.
+___________________________________________________________________________________________________________________________________________
+Read Bathing soap facewash of all months and display it using the Subplot
+___________________________________________________________________________________________________________________________________________
+Read all product sales data and show it using the stack plot
