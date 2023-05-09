@@ -1,0 +1,9 @@
+Problem Statement:
+
+Consider a real estate company has a data set of the prices in the region of Delhi. 
+
+Create a linear model that quantitatively relates house prices with its variables such as the number of rooms, area, number of bathrooms, etc. and display the accuracy of the model, i.e. how well these variables predict house prices.
+
+Dataset : 
+    
+Please use Housing.csv
