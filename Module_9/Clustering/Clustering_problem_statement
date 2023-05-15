@@ -1,0 +1,9 @@
+Problem statement:
+    
+This dataset has been obtained from UCI ML Repository. https://archive.ics.uci.edu/ml/datasets/Facebook+Live+Sellers+in+Thailand
+
+Live selling is becoming increasingly popular in Asian countries. Small vendors can now reach a wider audience and connect with many customers.
+
+Create clusters to find the charecteristics of each cluster.
+
+Dataset: Live.csv
