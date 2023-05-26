@@ -1,0 +1,3 @@
+Use SVM classifier to classify Iris dataset to either of the species - Iris-setosa/Iris-versicolor.
+
+Please use Iris.csv as the dataset.
